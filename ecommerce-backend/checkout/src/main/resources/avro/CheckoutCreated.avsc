@@ -1,0 +1,15 @@
+{
+    "type": "record",
+    "name": "CheckoutCreatedEvent",
+    "namespace": "dio.ecommerce.checkout.event",
+    "fields":[
+        {
+            "name": "CheckoutCode",
+            "type": ["string"]
+        },
+        {
+            "name": "status",
+            "type": ["string"]
+        }
+    ]
+}
